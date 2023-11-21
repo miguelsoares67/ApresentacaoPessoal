@@ -146,3 +146,26 @@ body {
         width: auto;
     }
 }
+
+@media (max-width: 700px) {
+    .cabecalho {
+        padding: 1%;
+    }
+    
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+    .apresentacao__imagem {
+        width: 80%;
+    }
+}
